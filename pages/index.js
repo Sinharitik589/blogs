@@ -5,7 +5,7 @@ export default function Index({ data }) {
   return (
     <>
       <p>Hello I am home page</p>
-      <Link href="/about" as={"/about"}>
+      <Link href="/about">
         <a>About</a>
       </Link>
       <h1>Series</h1>
