@@ -1,18 +1,36 @@
-import Link from "next/link";
-import axios from "axios";
-
-function Show({ data }) {
-  return <p>{"data"}</p>;
+function Show(props) {
+  return <p>{"ritik"}</p>;
 }
 
-Show.getInitialProps = async (context) => {
-  const { id } = context.query;
-  const res = await axios.get(`https://api.tvmaze.com/shows/${id}`);
-  const data = await res.data;
-  console.log(data);
+export async function getStaticProps({ params }) {
   return {
-    data: data,
+    props: params,
   };
-};
+}
+export async function getStaticPaths() {
+  const data = [
+    {
+      id: "1",
+      title: "one",
+    },
+    {
+      id: "2",
+      title: "two",
+    },
+  ];
+  const paths = data.map((posts, i) => {
+    return {
+      params: {
+        id: posts.id,
+        title: posts.title,
+      },
+    };
+  });
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
 
 export default Show;

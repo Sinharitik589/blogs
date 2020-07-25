@@ -11,12 +11,12 @@ export default function Index({ data }) {
       <h1>Series</h1>
 
       <ul>
-        {data.map((data) => {
-          console.log(data);
+        {data.map((data, index) => {
+          console.log(typeof data.title);
           return (
             <li key={data.id}>
-              <Link href="/show/[id]" as={`/show/${data.show.id}`}>
-                <a>{data.show.name}</a>
+              <Link href="/show/[id]" as={`/show/${data.id}`}>
+                <a>{data.title}</a>
               </Link>
             </li>
           );
@@ -27,8 +27,17 @@ export default function Index({ data }) {
 }
 
 Index.getInitialProps = async () => {
-  const res = await axios.get("https://api.tvmaze.com/search/shows?q=sherlock");
-  const data = await res.data;
+  const data = [
+    {
+      id: "1",
+      title: "one",
+    },
+    {
+      id: "2",
+      title: "two",
+    },
+  ];
+
   console.log(data);
   return {
     data,
