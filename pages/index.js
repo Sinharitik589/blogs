@@ -6,7 +6,7 @@ export default function Index({ data }) {
   return (
     <>
       <p>Hello I am home page</p>
-      <Link href="/about" as={process.env.BACKEND_URL + "/about"}>
+      <Link href="/about" as={"blogs/about"}>
         <a>About</a>
       </Link>
       <h1>Series</h1>
