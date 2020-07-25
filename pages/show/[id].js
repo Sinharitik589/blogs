@@ -1,5 +1,5 @@
 function Show(props) {
-  return <p>{props.title}</p>;
+  return <p>ritikfnfhffhfh</p>;
 }
 
 export async function getStaticProps({ params }) {
