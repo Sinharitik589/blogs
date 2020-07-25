@@ -1,6 +1,5 @@
 import Link from "next/link";
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Index({ data }) {
   const [add, changeadd] = useState("right");
@@ -12,7 +11,7 @@ export default function Index({ data }) {
       </Link>
       <button
         onClick={() => {
-          changeadd("left");
+          console.log("id");
         }}
       >
         {add}
