@@ -2,6 +2,7 @@ import Link from "next/link";
 import axios from "axios";
 
 export default function Index({ data }) {
+  console.log(process.env.BACKEND_URL, "jjjjjj");
   return (
     <>
       <p>Hello I am home page</p>

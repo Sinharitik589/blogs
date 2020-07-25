@@ -1,4 +1,4 @@
 const prod = process.env.NODE_ENV === "production";
 module.exports = {
-  "process.env.BACKEND_URL": prod ? "/blogs" : "",
+  "process.env.BACKEND_URL": prod ? "" : "/blogs",
 };
