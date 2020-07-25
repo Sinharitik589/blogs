@@ -1,20 +1,20 @@
 {
   "devFiles": [],
   "lowPriorityFiles": [
-    "static/-SmnKpDR_4SaVat3UudtD/_buildManifest.js",
-    "static/-SmnKpDR_4SaVat3UudtD/_ssgManifest.js"
+    "static/pX5zx1KZZIU4VYJXBPeJO/_buildManifest.js",
+    "static/pX5zx1KZZIU4VYJXBPeJO/_ssgManifest.js"
   ],
   "pages": {
     "/": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c169f27703170035475b9df917e8cad47f1cdfc5.113f3806a5116aa31721.js",
+      "static/chunks/119136b9bd22672b897746f332274d2ce5af5464.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/_app": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c169f27703170035475b9df917e8cad47f1cdfc5.113f3806a5116aa31721.js",
+      "static/chunks/119136b9bd22672b897746f332274d2ce5af5464.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/_error": [
@@ -28,13 +28,13 @@
     "/about": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c169f27703170035475b9df917e8cad47f1cdfc5.113f3806a5116aa31721.js",
+      "static/chunks/119136b9bd22672b897746f332274d2ce5af5464.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/index": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c169f27703170035475b9df917e8cad47f1cdfc5.113f3806a5116aa31721.js",
+      "static/chunks/119136b9bd22672b897746f332274d2ce5af5464.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/show/[id]": [
