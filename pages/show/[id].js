@@ -1,5 +1,5 @@
 function Show(props) {
-  return <p>{"ritik"}</p>;
+  return <p>{props.title}</p>;
 }
 
 export async function getStaticProps({ params }) {
@@ -16,6 +16,15 @@ export async function getStaticPaths() {
     {
       id: "2",
       title: "two",
+    },
+    ,
+    {
+      id: "3",
+      title: "three",
+    },
+    {
+      id: "4",
+      title: "four",
     },
   ];
   const paths = data.map((posts, i) => {

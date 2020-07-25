@@ -36,6 +36,14 @@ Index.getInitialProps = async () => {
       id: "2",
       title: "two",
     },
+    {
+      id: "3",
+      title: "three",
+    },
+    {
+      id: "4",
+      title: "four",
+    },
   ];
 
   console.log(data);
