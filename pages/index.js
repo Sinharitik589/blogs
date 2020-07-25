@@ -15,7 +15,7 @@ export default function Index({ data }) {
           console.log(typeof data.title);
           return (
             <li key={data.id}>
-              <Link href="blogs/show/[id]" as={`/show/${data.id}`}>
+              <Link href="blogs/show/[id]" as={`blogs/show/${data.id}`}>
                 <a>{data.title}</a>
               </Link>
             </li>
