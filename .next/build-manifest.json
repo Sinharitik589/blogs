@@ -1,20 +1,20 @@
 {
   "devFiles": [],
   "lowPriorityFiles": [
-    "static/lm-Pki2Itawajv-A5IKyB/_buildManifest.js",
-    "static/lm-Pki2Itawajv-A5IKyB/_ssgManifest.js"
+    "static/R5l1dFd87N1_Aq3O2Udfa/_buildManifest.js",
+    "static/R5l1dFd87N1_Aq3O2Udfa/_ssgManifest.js"
   ],
   "pages": {
     "/": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c7b2693e4d7d661c6a3dcb81c1af35b4d16bd8c7.113f3806a5116aa31721.js",
+      "static/chunks/af6f2b39b0439e991df0d93fa8ef36b8dace8760.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/_app": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c7b2693e4d7d661c6a3dcb81c1af35b4d16bd8c7.113f3806a5116aa31721.js",
+      "static/chunks/af6f2b39b0439e991df0d93fa8ef36b8dace8760.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/_error": [
@@ -28,13 +28,13 @@
     "/about": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c7b2693e4d7d661c6a3dcb81c1af35b4d16bd8c7.113f3806a5116aa31721.js",
+      "static/chunks/af6f2b39b0439e991df0d93fa8ef36b8dace8760.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/index": [
       "static/runtime/webpack-c212667a5f965e81e004.js",
       "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/c7b2693e4d7d661c6a3dcb81c1af35b4d16bd8c7.113f3806a5116aa31721.js",
+      "static/chunks/af6f2b39b0439e991df0d93fa8ef36b8dace8760.113f3806a5116aa31721.js",
       "static/runtime/main-99661a934bcf19bce756.js"
     ],
     "/show/[id]": [
