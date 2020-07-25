@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sinharitik589.github.io/blogs/",
   "scripts": {
     "dev": "next",
     "build": "next build",
