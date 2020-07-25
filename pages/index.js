@@ -7,11 +7,12 @@ export default function Index({ data }) {
     <>
       <p>Hello I am home page</p>
       <Link href="about">
-        <a>About</a>
+        <a id="about">About</a>
       </Link>
       <button
         onClick={() => {
           console.log("id");
+          document.getElementById("about").style.color = "red";
         }}
       >
         {add}
