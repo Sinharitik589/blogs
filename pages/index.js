@@ -1,14 +1,22 @@
 import Link from "next/link";
 import axios from "axios";
+import { useEffect, useState } from "react";
 
 export default function Index({ data }) {
+  const [add, changeadd] = useState("right");
   return (
     <>
       <p>Hello I am home page</p>
       <Link href="about">
         <a>About</a>
       </Link>
-      <h1>Series</h1>
+      <button
+        onClick={() => {
+          changeadd("left");
+        }}
+      >
+        {add}
+      </button>
 
       <ul>
         {data.map((data, index) => {
